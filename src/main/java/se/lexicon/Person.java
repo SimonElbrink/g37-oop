@@ -17,6 +17,7 @@ public class Person { // Start of Class
         this.birthYear = birthYear;
     } //end of Constructor
 
+    // Parameterized Constructor
     public Person (String firstName, String lastName){//Start of Constructor
         this();
         this.firstName = firstName;
@@ -61,4 +62,4 @@ public class Person { // Start of Class
     public void setLastName(String lastName) {
         LastName = lastName;
     }
-}//End of Class
+}
