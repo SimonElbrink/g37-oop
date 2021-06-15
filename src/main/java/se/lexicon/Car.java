@@ -25,6 +25,11 @@ public class Car {
    }
 
    public static int getCurrentIdNumber() {
+//      this //Not Allowed
+      return sequencer;
+   }
+
+   public int getCurrentIdNumberNonStatic() {
       return sequencer;
    }
 
@@ -40,7 +45,7 @@ public class Car {
    public static void staticMethod(){
       System.out.println("Inside Static method");
 
-      // Not Allowed. static method is created and executed before instance method is created.
+      // Not allowed to run instance methods in static. static method is created and executed before instance method is created.
       // nonstaticMethod();
    }
 

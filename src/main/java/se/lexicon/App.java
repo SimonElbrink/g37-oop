@@ -25,6 +25,7 @@ public class App
 
         System.out.println("Car.sequencer = " + Car.sequencer);
         System.out.println("Car.getSequencer() = " + Car.getCurrentIdNumber());
+        System.out.println("volvo.getCurrentIdNumberNonStatic() = " + volvo.getCurrentIdNumberNonStatic());
 
         //Changing Static field sequencer in Car Class to 9000
         Car.sequencer = 9000;
