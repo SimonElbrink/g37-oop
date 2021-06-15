@@ -1,14 +1,66 @@
 package se.lexicon;
 
-import java.util.Locale;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class App
 {
     public static void main( String[] args ) {
+        
+        //Static VS NON-Static|Instance
+
+        //Created an instance of Car class. Accessed via "bmw".
+        Car bmw = new Car("e30", "BMW", "ABC123");
+        System.out.println("bmw.regNumber = " + bmw.regNumber);
+        System.out.println("bmw.id = " + bmw.id);
+
+
+
+        //Accessing Car.sequencer in an static way.
+        System.out.println("Car.sequencer = " + Car.sequencer);
+
+
+        Car volvo = new Car("XC70", "Volvo", "CBA321");
+        System.out.println("volvo.regNumber = " + volvo.regNumber);
+        System.out.println("volvo.getRegNumber() = " + volvo.getRegNumber());
+        System.out.println("volvo.id = " + volvo.id);
+
+        System.out.println("Car.sequencer = " + Car.sequencer);
+        System.out.println("Car.getSequencer() = " + Car.getCurrentIdNumber());
+
+        //Changing Static field sequencer in Car Class to 9000
+        Car.sequencer = 9000;
+
+        System.out.println("Car.sequencer = " + Car.sequencer);
+        
+        Car opel = new Car("Astra", "Opel", "CBA231");
+        System.out.println("opel.id = " + opel.id); // 9001
+
+
+
+        //Demo
+        opel.nonstaticMethod();
+        Car.staticMethod();
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+    private static void lecture1() {
         //Primitives Starts with lowercase;
         int number;
 
@@ -33,8 +85,6 @@ public class App
         System.out.println(nameOfPerson.getFirstName() + " " + nameOfPerson.getLastName() + " Person age is: " + nameOfPerson.getAge(2021));
 
         Person otherPerson = new Person("Erik", "Svensson");
-
-
     }
 
 }
