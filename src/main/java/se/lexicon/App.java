@@ -8,7 +8,8 @@ public class App
         //Static VS NON-Static|Instance
 
         //Created an instance of Car class. Accessed via "bmw".
-        Car bmw = new Car("e30", "BMW", "ABC123");
+        String model = "e30";
+        Car bmw = new Car(model, "BMW", "ABC123");
         System.out.println("bmw.regNumber = " + bmw.regNumber);
         System.out.println("bmw.id = " + bmw.id);
 
@@ -34,6 +35,9 @@ public class App
         
         Car opel = new Car("Astra", "Opel", "CBA231");
         System.out.println("opel.id = " + opel.id); // 9001
+
+        System.out.println("bmw.id = " + bmw.id);
+        System.out.println("volvo.id = " + volvo.id);
 
 
 

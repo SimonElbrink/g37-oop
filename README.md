@@ -6,7 +6,7 @@
 > A way of doing thing.  
 > [What Exactly is a Programming Paradigm](https://www.freecodecamp.org/news/what-exactly-is-a-programming-paradigm/)
 
-## What is OOP?
+## What ?
 Based on a concept of "Objects"
 It's a Paradigm.
 
@@ -24,4 +24,25 @@ Objects, Classes, Inheritance, Interfaces, Packages
 or  
 Class, Abstraction, Encapsulation, Inheritance and Polymorphism.
 
+
+---
+
+## String
+
+What?
+Object
+java.lang.String
+char[]
+Immutable - non-changeable
+
+se.lexicon.Car
+
+Why?
+Convenient
+Frequently used for storing a lot of characters.
+
+How?
+""
+String name = "";
+String name = new string();
 
