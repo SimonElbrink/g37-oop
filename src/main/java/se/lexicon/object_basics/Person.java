@@ -1,4 +1,4 @@
-package se.lexicon;
+package se.lexicon.object_basics;
 
 //Class - BluePrint
 //fields, Constructors, Custom Methods, getters & Setters, Equals & HashCodes, ToString

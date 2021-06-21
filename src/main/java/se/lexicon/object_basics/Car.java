@@ -1,4 +1,4 @@
-package se.lexicon;
+package se.lexicon.object_basics;
 
 public class Car {
 
@@ -10,11 +10,13 @@ public class Car {
    public String model;
    public String brand;
    public String regNumber;
+   public Owner owner;
 
    public Car(String model, String brand, String regNumber){
       this.model = model;
       this.brand = brand;
       this.regNumber = regNumber;
+      //Sets the id to next number in sequence.
       this.id = ++sequencer; //sequencer = sequencer + 1
 
    }

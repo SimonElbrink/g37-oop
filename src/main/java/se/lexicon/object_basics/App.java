@@ -1,4 +1,4 @@
-package se.lexicon;
+package se.lexicon.object_basics;
 
 
 public class App
@@ -46,23 +46,7 @@ public class App
         Car.staticMethod();
 
 
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
 
 
     private static void lecture1() {

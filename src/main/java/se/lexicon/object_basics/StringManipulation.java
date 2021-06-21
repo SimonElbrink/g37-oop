@@ -1,4 +1,4 @@
-package se.lexicon;
+package se.lexicon.object_basics;
 
 public class StringManipulation {
 
