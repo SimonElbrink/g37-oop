@@ -22,56 +22,57 @@ Directly associate real-world problems.
 ### How?  
 Objects, Classes, Inheritance, Interfaces, Packages  
 or  
-Class, Abstraction, Encapsulation, Inheritance and Polymorphism.
-
+Class, Abstraction, Encapsulation, Inheritance and Polymorphism.  
 
 ---
 
 ## String
 
-What?
-Object
-java.lang.String
-char[]
-Immutable - non-changeable
+### What?
+Object  
+java.lang.String  
+char[]  
+Immutable - non-changeable  
 
 se.lexicon.object_basics.Car
 
-Why?
-Convenient
-Frequently used for storing a lot of characters.
+### Why?
+Convenient  
+Frequently used for storing a lot of characters.  
 
-How?
-""
-String name = "";
-String name = new string();
+### How?
+Syntax: ""  
 
+String name = "";  
+String name = new string();  
 
 ---
 
 ## Class Inheritance
 
-What?  
-Core feature of OOP
-Structure to handle complexity in your program.
-hierarchy
+### What?  
+Core feature of OOP  
+Structure to handle complexity in your program.  
+hierarchy  
 
 animal -> mammal -> Dog  
-animal -> mammal -> Cat
+animal -> mammal -> Cat  
 animal -> Bird -> Eagle
 
 
-Why?  
-Clear intentions - Readability
+### Why?  
+Clear intentions - Readability  
 Reusable code
 
 
-How?  
-Syntax/Keyword:
+### How?  
+Syntax/Keyword: extends  
 
-extends
+ex.
 
-Class A{}
+```Java
+class A{}
 
-Class B extends A {}
+class B extends A {}
+```
 
