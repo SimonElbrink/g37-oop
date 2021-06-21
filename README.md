@@ -35,7 +35,7 @@ java.lang.String
 char[]
 Immutable - non-changeable
 
-se.lexicon.Car
+se.lexicon.object_basics.Car
 
 Why?
 Convenient
@@ -45,4 +45,33 @@ How?
 ""
 String name = "";
 String name = new string();
+
+
+---
+
+## Class Inheritance
+
+What?  
+Core feature of OOP
+Structure to handle complexity in your program.
+hierarchy
+
+animal -> mammal -> Dog  
+animal -> mammal -> Cat
+animal -> Bird -> Eagle
+
+
+Why?  
+Clear intentions - Readability
+Reusable code
+
+
+How?  
+Syntax/Keyword:
+
+extends
+
+Class A{}
+
+Class B extends A {}
 
