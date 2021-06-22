@@ -9,4 +9,13 @@ class Lion extends Felidae {
         System.out.println(getName() + " ROARS!");
     }
 
+    @Override
+    public int getSwimSpeed() {
+        return 10;
+    }
+
+    @Override
+    public int getRunSpeed() {
+        return 75;
+    }
 }
