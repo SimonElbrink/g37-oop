@@ -1,8 +1,5 @@
-package se.lexicon.inheritance.animal;
+package se.lexicon.interfaces;
 
-import se.lexicon.inheritance.Fly;
-import se.lexicon.inheritance.Run;
-import se.lexicon.inheritance.Swim;
 
 public class Flamingo implements Run, Fly, Swim {
     @Override

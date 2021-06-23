@@ -1,4 +1,4 @@
-package se.lexicon.inheritance;
+package se.lexicon.interfaces;
 
 public class Person implements Swim, Run {
 

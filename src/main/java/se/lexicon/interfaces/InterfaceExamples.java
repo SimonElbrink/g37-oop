@@ -1,7 +1,5 @@
-package se.lexicon.inheritance;
+package se.lexicon.interfaces;
 
-
-import se.lexicon.inheritance.animal.Flamingo;
 
 public class InterfaceExamples {
     public static void main(String[] args) {

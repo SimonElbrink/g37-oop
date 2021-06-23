@@ -1,6 +1,6 @@
-package se.lexicon.inheritance.animal;
+package se.lexicon.interfaces;
 
-
+import se.lexicon.inheritance.animal.Mammal;
 
 /**
  * Fun facts.
@@ -11,7 +11,7 @@ package se.lexicon.inheritance.animal;
  */
 
 
-public class Felidae extends Mammal{
+public class Felidae extends Mammal implements Swim, Run {
 
     public Felidae(String name, int weight) {
         super(name, weight);
@@ -20,5 +20,15 @@ public class Felidae extends Mammal{
     @Override
     public void makeSound() {
         System.out.println("Sound");
+    }
+
+    @Override
+    public int getSwimSpeed(){
+        return 5;
+    }
+
+    @Override
+    public int getRunSpeed() {
+        return 20;
     }
 }
