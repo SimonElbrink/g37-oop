@@ -1,20 +1,24 @@
 # Object-Oriented Programming
+>  Link for [OOP in Java](https://docs.oracle.com/javase/tutorial/java/concepts/index.html)
 
 > ### Paradigm  
 > A style to program in.  
 > A paradigm helps to reduce complexity of a program.  
-> A way of doing thing.  
+> A way of doing things, Patterns, ideal
 > [What Exactly is a Programming Paradigm](https://www.freecodecamp.org/news/what-exactly-is-a-programming-paradigm/)  
 
->  Extra Link for [Java Concept OOP](https://docs.oracle.com/javase/tutorial/java/concepts/index.html)
 
 ## What?
 Based on a concept of "Objects"
-It's a Paradigm.
 
+A Paradigm = Patterns, ideal conditions.
 
+Objectifying this world in to code. It's a good beginning.  
 Model real world thing. (Dog, Car) with  
-Objects = State, Behavior
+Objects = State & Behavior
+> State - attributes, nouns   
+> Behavior - Methods, verbs
+
 
 ### Why?
 Code Structure  
@@ -34,13 +38,14 @@ Class, Abstraction, Encapsulation, Inheritance and Polymorphism.
 Object  
 java.lang.String  
 char[]  
-Immutable - non-changeable  
+Immutable - unmodifiable or unchangeable, but can be changes to a new String Object
+
 
 se.lexicon.object_basics.Car
 
 ### Why?
 Convenient  
-Frequently used for storing a lot of characters.  
+Frequently used for storing a lot of characters, text
 
 ### How?
 Syntax: ""  
@@ -55,7 +60,7 @@ String name = new string();
 ### What?  
 Core feature of OOP  
 Structure to handle complexity in your program.  
-hierarchy  
+Hierarchy | Family Tree 
 
 animal -> mammal -> Dog  
 animal -> mammal -> Cat  
@@ -139,3 +144,71 @@ public class Employee implements Comparable{
 
 }
 ```
+
+---
+
+## Enum
+
+### What?  
+Not a class or interface = enum  
+Special Datatype.  
+Predefined Constants - at Compile Time
+
+
+#### Like:  
+> Gender  
+> Season  
+> Month  
+> Days in a week  
+> Measurement
+> Deck of cards  
+> Dice  
+> Planets in our solar system  
+
+### Why?  
+Easy access to specific Values
+Strict set of rules of what is allowed.
+
+### How?  
+
+ex1.
+```java
+//How you start creating a Enum
+enum Month{}
+
+//How You create a Class
+class Person{}
+
+//..and Interface
+interface Swim{}
+```
+
+````java
+class App {
+    public static void main(String[] args) {
+        Person newPerson = new Person();
+        Month[] allMonths = Month.values();
+    }
+}
+````
+
+ex2.
+````java
+enum Day{
+    MONDAY, TUESDAY, WEDNESDAY,
+    THURSDAY, FRIDAY, SATURDAY, SUNDAY
+}
+````
+
+
+
+
+
+
+
+
+
+
+
+
+

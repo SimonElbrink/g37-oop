@@ -1,5 +1,6 @@
 package se.lexicon.enums;
 
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.Month;
 
@@ -16,12 +17,12 @@ public class EnumExperiments {
         Ingredient tomato = new Ingredient("Tomato", Measurement.GRAM, 100);
         Ingredient potato = new Ingredient("Potato", Measurement.KILOGRAM, 2);
 
-        Recipe soup = new Recipe();
+        Recipe soup = new Recipe("SOUP");
+        soup.setRecipeDateTime(LocalDate.of(2021, Month.MARCH,18).atTime(10,30));
+        soup.setIngredients(new Ingredient[]{tomato, potato});
 
-        soup.ingredients = new Ingredient[]{tomato, potato};
+        DayOfWeek friday = DayOfWeek.FRIDAY;
 
-        LocalDate.of(2021, Month.MARCH,60);
-        //DayOfWeek.FRIDAY
 
 
     }
